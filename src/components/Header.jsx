@@ -1,12 +1,13 @@
 import React from "react";
+import "./header.css";
 
 function Header() {
     return(
-        <Header>
-        <h1> 
+        <header className=" header">
+        <h1 className="header h1"> 
           REXnote
         </h1>
-     </Header>
+     </header>
     );
 }
 
